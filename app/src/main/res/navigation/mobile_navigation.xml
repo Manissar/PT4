@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_weight">
+
+    <fragment
+        android:id="@+id/nav_weight"
+        android:name="com.example.pt3_boutikar.ui.weight.WeightFragment"
+        android:label="@string/menu_weight"
+        tools:layout="@layout/fragment_weight" />
+
+    <fragment
+        android:id="@+id/nav_feeling"
+        android:name="com.example.pt3_boutikar.ui.feeling.FeelingFragment"
+        android:label="@string/menu_feeling"
+        tools:layout="@layout/fragment_feeling" />
+
+    <fragment
+        android:id="@+id/nav_measurement"
+        android:name="com.example.pt3_boutikar.ui.measurement.MeasurementFragment"
+        android:label="@string/menu_measurement"
+        tools:layout="@layout/fragment_measurement" />
+    <fragment
+        android:id="@+id/nav_sleep"
+        android:name="com.example.pt3_boutikar.ui.sleep.SleepFragment"
+        android:label="@string/menu_sleep"
+        tools:layout="@layout/fragment_sleep" />
+    <fragment
+        android:id="@+id/nav_activities"
+        android:name="com.example.pt3_boutikar.ui.activities.ActivitiesFragment"
+        android:label="@string/menu_activities"
+        tools:layout="@layout/fragment_activities" />
+</navigation>
