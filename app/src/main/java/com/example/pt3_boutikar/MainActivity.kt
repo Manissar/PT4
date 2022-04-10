@@ -58,6 +58,7 @@ import android.util.Log
 import android.util.TypedValue
 import android.view.MenuItem
 import android.view.ViewGroup
+import androidx.core.view.get
 import androidx.fragment.app.findFragment
 import com.example.pt3_boutikar.databinding.FragmentSleepBinding
 import com.google.gson.Gson
@@ -102,6 +103,7 @@ class MainActivity : AppCompatActivity(), LoginDialogListener {
                 R.id.nav_weight, R.id.nav_feeling, R.id.nav_measurement, R.id.nav_sleep, R.id.nav_activities, R.id.nav_persons
             ), drawerLayout
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
@@ -122,6 +124,7 @@ class MainActivity : AppCompatActivity(), LoginDialogListener {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
+
         menuInflater.inflate(R.menu.main, menu)
         return true
     }
