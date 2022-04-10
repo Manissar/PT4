@@ -13,15 +13,17 @@
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/app_bar_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/content_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/content_sleep.xml" value="0.2" />
-        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_activities.xml" value="0.33" />
-        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_feeling.xml" value="0.33" />
+        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_activities.xml" value="0.1" />
+        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_feeling.xml" value="0.41037204058624577" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_measurement.xml" value="0.25" />
-        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_sleep.xml" value="0.25" />
+        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_persons.xml" value="0.6170616113744076" />
+        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_sleep.xml" value="0.33" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_slideshow.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/fragment_weight.xml" value="0.33" />
+        <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/layout_dialog.xml" value="0.25" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/layout/nav_header_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/sango/AndroidStudioProjects/PT3_BOUTIKAR/app/src/main/res/menu/main.xml" value="0.33" />

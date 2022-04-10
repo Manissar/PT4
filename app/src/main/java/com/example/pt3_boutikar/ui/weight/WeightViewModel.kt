@@ -3,18 +3,22 @@ package com.example.pt3_boutikar.ui.weight
 
 
 import android.app.Activity
+import android.graphics.Color
 import android.widget.TableLayout
 import android.widget.TableRow
 import android.widget.TextView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.pt3_boutikar.MainActivity
 import com.example.pt3_boutikar.R
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.Request;
 import okhttp3.Credentials
 import okhttp3.OkHttpClient
+import org.jetbrains.anko.backgroundColor
+import org.jetbrains.anko.padding
 import org.json.JSONArray
 import org.json.JSONTokener
 import java.io.IOException
@@ -22,12 +26,10 @@ import java.io.IOException
 class WeightViewModel : ViewModel() {
 
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is weight Fragment"
-    }
+
     private val client = OkHttpClient()
 
-    fun run() {
+    public fun run() {
         val credential = Credentials.basic("Manissar", "JiXugN5cgq*0PooH59X&pcs%r^31c5df")
         val request = Request.Builder()
             .url("https://cloud.floriancuny.fr/apps/health/weight/dataset/person/2")
@@ -53,11 +55,6 @@ class WeightViewModel : ViewModel() {
             }
         })
     }
-
-    val text: LiveData<String> = _text
-
-
-
 
 
 }

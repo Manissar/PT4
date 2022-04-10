@@ -24,5 +24,9 @@
             android:id="@+id/nav_activities"
             android:icon="@drawable/ic_menu_activities"
             android:title="@string/menu_activities" />
+        <item
+            android:id="@+id/nav_persons"
+            android:icon="@drawable/ic_menu_measurement"
+            android:title="@string/menu_persons" />
     </group>
 </menu>

@@ -32,4 +32,9 @@
         android:name="com.example.pt3_boutikar.ui.activities.ActivitiesFragment"
         android:label="@string/menu_activities"
         tools:layout="@layout/fragment_activities" />
+    <fragment
+        android:id="@+id/nav_persons"
+        android:name="com.example.pt3_boutikar.ui.activities.PersonsFragment"
+        android:label="@string/menu_persons"
+        tools:layout="@layout/fragment_persons" />
 </navigation>

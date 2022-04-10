@@ -8,8 +8,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.pt3_boutikar.MainActivity
 import com.example.pt3_boutikar.databinding.FragmentSleepBinding
 import com.example.pt3_boutikar.ui.feeling.SleepViewModel
+import kotlinx.coroutines.MainScope
 
 class SleepFragment : Fragment() {
 

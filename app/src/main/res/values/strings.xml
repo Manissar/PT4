@@ -11,6 +11,7 @@
     <string name="menu_feeling">Feeling</string>
     <string name="menu_measurement">Measurement</string>
     <string name="menu_sleep">Sleep</string>
+    <string name="menu_persons">Persons</string>
     <string name="menu_activities">Activities</string>
 
 </resources>
