@@ -181,8 +181,8 @@ class MainActivity : AppCompatActivity(), LoginDialogListener {
                         count = 0
                         for (i in 0 until jsonArray.length()) {
                             val date = jsonArray.getJSONObject(i).getString("date")
-                            val weight = jsonArray.getJSONObject(i).getInt("weight")
-                            val bodyFat = jsonArray.getJSONObject(i).getInt("bodyfat")
+                            val weight = jsonArray.getJSONObject(i).getString("weight")
+                            val bodyFat = jsonArray.getJSONObject(i).getString("bodyfat")
                             val comment = jsonArray.getJSONObject(i).getString("comment")
                             createWeightRow(date, weight, bodyFat, comment)
                             count++
@@ -482,7 +482,7 @@ class MainActivity : AppCompatActivity(), LoginDialogListener {
         row.addView(rowText)
         this@MainActivity.runOnUiThread(java.lang.Runnable { testTable.addView(row) })
     }
-    fun createWeightRow(date : String, Weight: Int, bodyFat : Int, comment:String) {
+    fun createWeightRow(date : String, Weight: String, bodyFat : String, comment:String) {
         val testTable = findViewById<TableLayout>(R.id.dataTable)
         val row = TableRow(this);
         row.padding = 10
